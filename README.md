@@ -23,6 +23,15 @@ Projeto **Machine Learning na cabeça** sobre o dataset oficial `crop_yield.csv`
 
 Este README não replica o relatório do notebook: aponta o arquivo, os vídeos e o essencial para reproduzir.
 
+## Divisão do grupo
+
+| Parte | Responsável | Entrega |
+|---|---|---|
+| P1 | Higor Henrique Garcia — RM 571820 | Dicionário, EDA e regressão linear |
+| P2 | Vinicius Alves Lopes dos Anjos — RM 572814 | Cluster, outliers, Random Forest e Gradient Boosting |
+| P3 | Humberto Salim — RM 570536 | Decision Tree e KNN |
+| P4 | Igor Zeviani Nogueira — RM 572822 | AWS (SP vs Virginia), justificativa legal/latência, gráficos no README |
+
 ## Vídeos (YouTube não listado)
 
 - Entrega 1 — ML (≤ 5 min): `SUBSTITUIR_APOS_UPLOAD`
@@ -48,9 +57,9 @@ Protocolo comum: `random_state=42`, teste 25%, Isolation Forest (3%) **somente n
 
 Melhor RMSE no conjunto de teste, nesta execução: **Linear Regression**. KNN fica atrás neste conjunto pequeno. Figuras de EDA em `assets/eda/`; comparação de RMSE em `assets/comparison/`.
 
-## Entrega 2 — AWS
+## Entrega 2 — AWS (Igor Zeviani Nogueira)
 
-Estimativa **On-Demand 100%**, Linux, `t3.micro` (2 vCPU, 1 GiB, até 5 Gbit) + **50 GiB gp3**. Cotação 08/09/2026 (AWS Price List).
+Estimativa **On-Demand 100%**, Linux, `t3.micro` (2 vCPU, 1 GiB, até 5 Gbit) + **50 GiB gp3**. Cotação 08/09/2026 (AWS Price List). Detalhe: [`document/igor_part.md`](document/igor_part.md) e [`document/aws_justificativa.md`](document/aws_justificativa.md).
 
 | Região | Total / mês |
 |---|---:|

@@ -1,6 +1,7 @@
 # Justificativa de região AWS — FarmTech (LGPD + latência)
 
 **Task:** FarmTech Cap 1 — Parte 4 (Cloud) · assign 625979  
+**Responsável:** Igor Zeviani Nogueira — RM 572822  
 **Cenário:** API/workload Linux leve (t3.micro + 50 GiB gp3) para apoio ao pipeline ML agrícola FarmTech.
 
 ## Pergunta do enunciado

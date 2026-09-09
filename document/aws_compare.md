@@ -1,6 +1,7 @@
 # Comparação AWS On-Demand — São Paulo vs N. Virginia
 
 **Task:** FarmTech Cap 1 — Parte 4 (Cloud) · assign 625979  
+**Responsável:** Igor Zeviani Nogueira — RM 572822  
 **Data da cotação:** 2026-09-08  
 **Modelo de cobrança:** On-Demand 100% (sem Reserved, Spot ou Savings Plans)
 
