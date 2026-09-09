@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "project": "FarmTech ML + Cloud — Cap 1 Parte 4 (Cloud)",
+    "assign_id": "625979",
+    "quote_date": "2026-09-08",
+    "billing_model": "On-Demand 100%",
+    "currency": "USD",
+    "hours_per_month": 730,
+    "notes": "Estimativa mensal contínua (730 h/mês). Sem Reserved, Spot, Savings Plans ou transferência de dados."
+  },
+  "assumptions": {
+    "instance_type": "t3.micro",
+    "operating_system": "Linux/Unix",
+    "vcpu": 2,
+    "memory_gib": 1,
+    "network_performance": "Up to 5 Gigabit",
+    "ebs_volume_type": "gp3",
+    "ebs_size_gib": 50,
+    "ebs_iops": 3000,
+    "ebs_throughput_mbs": 125,
+    "ebs_extra_iops_cost": false,
+    "ebs_extra_throughput_cost": false
+  },
+  "sources": [
+    {
+      "name": "AWS Price List API — EC2 us-east-1",
+      "url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/us-east-1/index.json",
+      "accessed": "2026-09-08"
+    },
+    {
+      "name": "AWS Price List API — EC2 sa-east-1",
+      "url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/sa-east-1/index.json",
+      "accessed": "2026-09-08"
+    },
+    {
+      "name": "AWS EC2 T3 instance types (referência pública us-east-1)",
+      "url": "https://aws.amazon.com/ec2/instance-types/t3/",
+      "accessed": "2026-09-08"
+    },
+    {
+      "name": "AWS EBS pricing (gp3 baseline incluído)",
+      "url": "https://aws.amazon.com/ebs/pricing/",
+      "accessed": "2026-09-08"
+    },
+    {
+      "name": "AWS Pricing Calculator (repetição manual do cenário)",
+      "url": "https://calculator.aws/",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "regions": {
+    "sa-east-1": {
+      "display_name": "South America (São Paulo)",
+      "ec2": {
+        "unit": "USD/hour",
+        "unit_price": 0.0168,
+        "monthly": 12.264
+      },
+      "ebs_gp3": {
+        "unit": "USD/GB-month",
+        "unit_price": 0.152,
+        "size_gib": 50,
+        "monthly": 7.6
+      },
+      "total_monthly_usd": 19.864
+    },
+    "us-east-1": {
+      "display_name": "US East (N. Virginia)",
+      "ec2": {
+        "unit": "USD/hour",
+        "unit_price": 0.0104,
+        "monthly": 7.592
+      },
+      "ebs_gp3": {
+        "unit": "USD/GB-month",
+        "unit_price": 0.08,
+        "size_gib": 50,
+        "monthly": 4.0
+      },
+      "total_monthly_usd": 11.592
+    }
+  },
+  "comparison": {
+    "cheaper_region_code": "us-east-1",
+    "cheaper_region_name": "US East (N. Virginia)",
+    "monthly_savings_usd": 8.272,
+    "sa_east_premium_percent": 71.4,
+    "recommended_region_code": "sa-east-1",
+    "recommended_region_name": "South America (São Paulo)",
+    "recommendation_reason": "Residência de dados no Brasil (LGPD) e menor latência para usuários FarmTech no território nacional."
+  }
+}

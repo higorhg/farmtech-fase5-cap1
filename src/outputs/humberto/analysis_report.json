@@ -1,0 +1,49 @@
+{
+  "responsible": "Humberto - Parte 3",
+  "source_path": "crop_yield.csv",
+  "source_sha256": "7ef0baae2259a9fe216901db1d86dd772f69b859303dee1629a5431b2bf71b7b",
+  "dataset_contract": "crop_yield_fiap",
+  "rows": 156,
+  "target": "Yield",
+  "outlier_filter": {
+    "outlier_method": "IsolationForest",
+    "contamination": 0.03,
+    "train_rows": 117,
+    "train_inliers": 113,
+    "train_outliers_removed": 4,
+    "test_rows_untouched": 39
+  },
+  "best_model": "Decision Tree",
+  "required_models": [
+    "Decision Tree",
+    "KNN Regressor"
+  ],
+  "metrics": [
+    {
+      "model": "Decision Tree",
+      "mae": 5483.572053160513,
+      "rmse": 11013.534335878001,
+      "r2": 0.9734651897156935,
+      "mape": 0.115775727259328
+    },
+    {
+      "model": "KNN Regressor",
+      "mae": 18580.16251188636,
+      "rmse": 30906.340574189384,
+      "r2": 0.7910426082064959,
+      "mape": 0.9727210294148037
+    },
+    {
+      "model": "Dummy baseline",
+      "mae": 44845.666666666664,
+      "rmse": 78547.01291273157,
+      "r2": -0.34965234705919457,
+      "mape": 0.7005702515263919
+    }
+  ],
+  "artifacts": {
+    "Dummy baseline": "artifacts/humberto/dummy_baseline.joblib",
+    "Decision Tree": "artifacts/humberto/decision_tree.joblib",
+    "KNN Regressor": "artifacts/humberto/knn_regressor.joblib"
+  }
+}
