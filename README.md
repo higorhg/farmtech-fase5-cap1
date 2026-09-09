@@ -6,14 +6,16 @@
 
 # FarmTech na Era da Cloud Computing
 
-## Grupo 54 — Fase 5, Capítulo 1
+## Grupo — Fase 5, Capítulo 1 · turma 1TIAOA
 
 ## Integrantes
 
 - Higor Henrique Garcia — RM 571820
 - Vinicius Alves Lopes dos Anjos — RM 572814
-- Humberto — RM 570536
-- Igor — RM 572822
+- Humberto Salim — RM 570536
+- Igor Zeviani Nogueira — RM 572822
+
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/higorhg/farmtech-fase5-cap1/blob/main/src/HigorHenriqueGarcia_rm571820_pbl_fase4.ipynb)
 
 ## Descrição
 
@@ -30,7 +32,7 @@ Este README não replica o relatório do notebook: aponta o arquivo, os vídeos 
 
 [`src/HigorHenriqueGarcia_rm571820_pbl_fase4.ipynb`](src/HigorHenriqueGarcia_rm571820_pbl_fase4.ipynb)
 
-Já contém saídas executadas (dicionário, EDA, clusters, tabela das 5 regressões).
+Já contém saídas executadas (dicionário, EDA, clusters, tabela das 5 regressões). Para gravar o vídeo ou revisar no navegador, use o botão **Open in Colab** acima — é o fluxo do [vídeo de instrução do curso](https://www.youtube.com/watch?v=5ZYRqca7OVc) (Colab → GitHub). O arquivo já está neste repositório; não precisa reenviar.
 
 ## Entrega 1 — ML (resumo)
 
