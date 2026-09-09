@@ -34,8 +34,8 @@ Este README não replica o relatório do notebook: aponta o arquivo, os vídeos 
 
 ## Vídeos (YouTube não listado)
 
-- Entrega 1 — ML (≤ 5 min): `SUBSTITUIR_APOS_UPLOAD`
-- Entrega 2 — calculadora AWS (≤ 5 min): `SUBSTITUIR_APOS_UPLOAD`
+- Entrega 1 — ML (≤ 5 min): https://youtu.be/s7XDrR_DM8U
+- Entrega 2 — calculadora AWS (≤ 5 min): https://youtu.be/ZqgywjClG4c
 
 ## Notebook oficial
 
